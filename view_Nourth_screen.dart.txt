@@ -1,0 +1,16 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_app/scareens/View_Nourth/components/view_Nourth_body.dart';
+
+
+class ViewpageNourth extends StatelessWidget {
+  static String routeName = "/viewpagenourth";
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('View Page'),
+      ),
+      body:Body(),
+    );
+  }
+}

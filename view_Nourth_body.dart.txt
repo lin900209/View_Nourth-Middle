@@ -1,0 +1,330 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_app/components/no_account_text.dart';
+import 'package:flutter_app/constants.dart';
+import 'package:flutter_app/scareens/forgot_password/components/forgot_password_form.dart';
+import 'package:flutter_app/size_cinfig.dart';
+import 'package:flutter_app/scareens/View_Nourth/view_Nourth_screen.dart';
+import 'package:flutter_app/scareens/food/components/food.page.dart';
+import 'package:getwidget/getwidget.dart';
+
+class Body extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return ListView(
+      children: <Widget>[
+        GFCard(
+          boxFit: BoxFit.cover,
+          titlePosition: GFPosition.start,
+          image: Image.asset(
+            'assets/View/北部/北部1.jpg',
+            height: MediaQuery.of(context).size.height * 0.2,
+            width: MediaQuery.of(context).size.width,
+            fit: BoxFit.cover,
+          ),
+          showImage: true,
+
+          content: Text("《基隆中正》正濱漁港 老舊漁港變身五彩繽紛小威尼斯"),
+          buttonBar: GFButtonBar(
+            children: <Widget>[
+              GFButton(
+                onPressed: () {
+                  final snackBar = new SnackBar (content: new Text('好喜歡喔！'));
+                  Scaffold.of(context).showSnackBar(snackBar);
+                },
+                text: '喜歡',
+              ),
+              GFButton(
+                onPressed: () {
+                  final snackBar = new SnackBar (content: new Text('不喜歡，需改進'));
+                  Scaffold.of(context).showSnackBar(snackBar);
+                },
+                text: '不喜歡',
+              ),
+            ],
+          ),
+        ),
+        GFCard(
+          boxFit: BoxFit.cover,
+          titlePosition: GFPosition.start,
+          image: Image.asset(
+            'assets/View/北部/北部2.jpg',
+            height: MediaQuery.of(context).size.height * 0.2,
+            width: MediaQuery.of(context).size.width,
+            fit: BoxFit.cover,
+          ),
+          showImage: true,
+
+          content: Text("《基隆中正》容軒亭步道 八斗子景色一覽無遺！碧海藍天的觀景私房景點"),
+          buttonBar: GFButtonBar(
+            children: <Widget>[
+              GFButton(
+                onPressed: () {
+                  final snackBar = new SnackBar (content: new Text('好喜歡喔！'));
+                  Scaffold.of(context).showSnackBar(snackBar);
+                },
+                text: '喜歡',
+              ),
+              GFButton(
+                onPressed: () {
+                  final snackBar = new SnackBar (content: new Text('不喜歡，需改進'));
+                  Scaffold.of(context).showSnackBar(snackBar);
+                },
+                text: '不喜歡',
+              ),
+            ],
+          ),
+        ),
+        GFCard(
+          boxFit: BoxFit.cover,
+          titlePosition: GFPosition.start,
+          image: Image.asset(
+            'assets/View/北部/北部3.jpg',
+            height: MediaQuery.of(context).size.height * 0.2,
+            width: MediaQuery.of(context).size.width,
+            fit: BoxFit.cover,
+          ),
+          showImage: true,
+
+          content: Text("《基隆仁愛》東岸商場空中跑道 吸睛的寶藍色跑道、眺望基隆港璀璨夜景"),
+          buttonBar: GFButtonBar(
+            children: <Widget>[
+              GFButton(
+                onPressed: () {
+                  final snackBar = new SnackBar (content: new Text('好喜歡喔！'));
+                  Scaffold.of(context).showSnackBar(snackBar);
+                },
+                text: '喜歡',
+              ),
+              GFButton(
+                onPressed: () {
+                  final snackBar = new SnackBar (content: new Text('不喜歡，需改進'));
+                  Scaffold.of(context).showSnackBar(snackBar);
+                },
+                text: '不喜歡',
+              ),
+            ],
+          ),
+        ),
+        GFCard(
+          boxFit: BoxFit.cover,
+          titlePosition: GFPosition.start,
+          image: Image.asset(
+            'assets/View/北部/北部4.jpg',
+            height: MediaQuery.of(context).size.height * 0.2,
+            width: MediaQuery.of(context).size.width,
+            fit: BoxFit.cover,
+          ),
+          showImage: true,
+
+          content: Text("《台北中山》花博新生公園/迷宮花園/玻璃金字塔 都市中的花園捉迷藏"),
+          buttonBar: GFButtonBar(
+            children: <Widget>[
+              GFButton(
+                onPressed: () {
+                  final snackBar = new SnackBar (content: new Text('好喜歡喔！'));
+                  Scaffold.of(context).showSnackBar(snackBar);
+                },
+                text: '喜歡',
+              ),
+              GFButton(
+                onPressed: () {
+                  final snackBar = new SnackBar (content: new Text('不喜歡，需改進'));
+                  Scaffold.of(context).showSnackBar(snackBar);
+                },
+                text: '不喜歡',
+              ),
+            ],
+          ),
+        ),
+        GFCard(
+          boxFit: BoxFit.cover,
+          titlePosition: GFPosition.start,
+          image: Image.asset(
+            'assets/View/北部/北部5.jpg',
+            height: MediaQuery.of(context).size.height * 0.2,
+            width: MediaQuery.of(context).size.width,
+            fit: BoxFit.cover,
+          ),
+          showImage: true,
+
+          content: Text("《台北士林》陽明山夢幻湖 有如置身歐美公園的森林系靜謐湖泊"),
+          buttonBar: GFButtonBar(
+            children: <Widget>[
+              GFButton(
+                onPressed: () {
+                  final snackBar = new SnackBar (content: new Text('好喜歡喔！'));
+                  Scaffold.of(context).showSnackBar(snackBar);
+                },
+                text: '喜歡',
+              ),
+              GFButton(
+                onPressed: () {
+                  final snackBar = new SnackBar (content: new Text('不喜歡，需改進'));
+                  Scaffold.of(context).showSnackBar(snackBar);
+                },
+                text: '不喜歡',
+              ),
+            ],
+          ),
+        ),
+        GFCard(
+          boxFit: BoxFit.cover,
+          titlePosition: GFPosition.start,
+          image: Image.asset(
+            'assets/View/北部/北部6.jpg',
+            height: MediaQuery.of(context).size.height * 0.2,
+            width: MediaQuery.of(context).size.width,
+            fit: BoxFit.cover,
+          ),
+          showImage: true,
+
+          content: Text("《台北平溪》望谷瀑布 山谷中寂靜的空靈系小站秘境"),
+          buttonBar: GFButtonBar(
+            children: <Widget>[
+              GFButton(
+                onPressed: () {
+                  final snackBar = new SnackBar (content: new Text('好喜歡喔！'));
+                  Scaffold.of(context).showSnackBar(snackBar);
+                },
+                text: '喜歡',
+              ),
+              GFButton(
+                onPressed: () {
+                  final snackBar = new SnackBar (content: new Text('不喜歡，需改進'));
+                  Scaffold.of(context).showSnackBar(snackBar);
+                },
+                text: '不喜歡',
+              ),
+            ],
+          ),
+        ),
+        GFCard(
+          boxFit: BoxFit.cover,
+          titlePosition: GFPosition.start,
+          image: Image.asset(
+            'assets/View/北部/北部7.jpg',
+            height: MediaQuery.of(context).size.height * 0.2,
+            width: MediaQuery.of(context).size.width,
+            fit: BoxFit.cover,
+          ),
+          showImage: true,
+
+          content: Text("《台北石門》老梅迷宮 神秘紅磚迷宮裡的躲貓貓、北海岸私房景點"),
+          buttonBar: GFButtonBar(
+            children: <Widget>[
+              GFButton(
+                onPressed: () {
+                  final snackBar = new SnackBar (content: new Text('好喜歡喔！'));
+                  Scaffold.of(context).showSnackBar(snackBar);
+                },
+                text: '喜歡',
+              ),
+              GFButton(
+                onPressed: () {
+                  final snackBar = new SnackBar (content: new Text('不喜歡，需改進'));
+                  Scaffold.of(context).showSnackBar(snackBar);
+                },
+                text: '不喜歡',
+              ),
+            ],
+          ),
+        ),
+        GFCard(
+          boxFit: BoxFit.cover,
+          titlePosition: GFPosition.start,
+          image: Image.asset(
+            'assets/View/北部/北部8.jpg',
+            height: MediaQuery.of(context).size.height * 0.2,
+            width: MediaQuery.of(context).size.width,
+            fit: BoxFit.cover,
+          ),
+          showImage: true,
+
+          content: Text("《台北貢寮》龍洞灣岬步道 穿越東北角時空的美、漫步於3500萬年最古老的峭壁岩層上"),
+          buttonBar: GFButtonBar(
+            children: <Widget>[
+              GFButton(
+                onPressed: () {
+                  final snackBar = new SnackBar (content: new Text('好喜歡喔！'));
+                  Scaffold.of(context).showSnackBar(snackBar);
+                },
+                text: '喜歡',
+              ),
+              GFButton(
+                onPressed: () {
+                  final snackBar = new SnackBar (content: new Text('不喜歡，需改進'));
+                  Scaffold.of(context).showSnackBar(snackBar);
+                },
+                text: '不喜歡',
+              ),
+            ],
+          ),
+        ),
+        GFCard(
+          boxFit: BoxFit.cover,
+          titlePosition: GFPosition.start,
+          image: Image.asset(
+            'assets/View/北部/北部9.jpg',
+            height: MediaQuery.of(context).size.height * 0.2,
+            width: MediaQuery.of(context).size.width,
+            fit: BoxFit.cover,
+          ),
+          showImage: true,
+
+          content: Text("《台北貢寮》三貂角燈塔 尋訪國境之東的聖地牙哥、湛藍與純白的希臘風景點"),
+          buttonBar: GFButtonBar(
+            children: <Widget>[
+              GFButton(
+                onPressed: () {
+                  final snackBar = new SnackBar (content: new Text('好喜歡喔！'));
+                  Scaffold.of(context).showSnackBar(snackBar);
+                },
+                text: '喜歡',
+              ),
+              GFButton(
+                onPressed: () {
+                  final snackBar = new SnackBar (content: new Text('不喜歡，需改進'));
+                  Scaffold.of(context).showSnackBar(snackBar);
+                },
+                text: '不喜歡',
+              ),
+            ],
+          ),
+        ),
+        GFCard(
+          boxFit: BoxFit.cover,
+          titlePosition: GFPosition.start,
+          image: Image.asset(
+            'assets/View/北部/北部10.jpg',
+            height: MediaQuery.of(context).size.height * 0.2,
+            width: MediaQuery.of(context).size.width,
+            fit: BoxFit.cover,
+          ),
+          showImage: true,
+
+          content: Text("《桃園大溪》舊百吉隧道 又見神隱少女隧道、經歷半世紀的神秘懷舊鐵道秘境"),
+          buttonBar: GFButtonBar(
+            children: <Widget>[
+              GFButton(
+                onPressed: () {
+                  final snackBar = new SnackBar (content: new Text('好喜歡喔！'));
+                  Scaffold.of(context).showSnackBar(snackBar);
+                },
+                text: '喜歡',
+              ),
+              GFButton(
+                onPressed: () {
+                  final snackBar = new SnackBar (content: new Text('不喜歡，需改進'));
+                  Scaffold.of(context).showSnackBar(snackBar);},
+                text: '不喜歡',
+              ),
+            ],
+          ),
+        )
+
+      ],
+    );
+
+  }
+
+}
